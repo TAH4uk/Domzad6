@@ -4,6 +4,8 @@
 // int numberM = int.Parse(Console.ReadLine());
 // int[] array = new int[numberM];
 
+// InputNumbers(numberM);
+
 // void InputNumbers(int numberM)
 // {
 //     for (int i = 0; i < numberM; i++)
@@ -23,14 +25,10 @@
 //     return count;
 // }
 
-// InputNumbers(numberM);
-
 // Console.WriteLine($"Введено чисел больше 0: {Сounting(array)} ");
 
 // Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
 // заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
-
-
 
 double[,] data = new double[2, 2];
 double[] InterPoint = new double[2];
